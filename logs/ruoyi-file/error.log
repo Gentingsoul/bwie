@@ -1,0 +1,24 @@
+15:11:12.948 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - [report,40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The dependencies of some of the beans in the application context form a cycle:
+
+   documentationPluginsBootstrapper defined in URL [jar:file:/C:/Maven/repository/repository/io/springfox/springfox-spring-web/3.0.0/springfox-spring-web-3.0.0.jar!/springfox/documentation/spring/web/plugins/DocumentationPluginsBootstrapper.class]
+      ↓
+   webMvcRequestHandlerProvider defined in URL [jar:file:/C:/Maven/repository/repository/io/springfox/springfox-spring-webmvc/3.0.0/springfox-spring-webmvc-3.0.0.jar!/springfox/documentation/spring/web/plugins/WebMvcRequestHandlerProvider.class]
+      ↓
+   org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+┌─────┐
+|  com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration (field private java.util.Optional com.alibaba.cloud.sentinel.SentinelWebAutoConfiguration.sentinelWebInterceptorOptional)
+└─────┘
+
+
+Action:
+
+Relying upon circular references is discouraged and they are prohibited by default. Update your application to remove the dependency cycle between beans. As a last resort, it may be possible to break the cycle automatically by setting spring.main.allow-circular-references to true.
+
