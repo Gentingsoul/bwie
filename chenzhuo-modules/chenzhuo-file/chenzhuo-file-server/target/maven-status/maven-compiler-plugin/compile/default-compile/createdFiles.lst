@@ -1,0 +1,8 @@
+com/chenzhuo/file/service/FastDfsSysFileServiceImpl.class
+com/chenzhuo/file/config/ResourcesConfig.class
+com/chenzhuo/file/service/ISysFileService.class
+com/chenzhuo/file/service/MinioSysFileServiceImpl.class
+com/chenzhuo/file/controller/SysFileController.class
+com/chenzhuo/file/service/LocalSysFileServiceImpl.class
+com/chenzhuo/file/config/MinioConfig.class
+com/chenzhuo/file/ChenZhuoFileApplication.class

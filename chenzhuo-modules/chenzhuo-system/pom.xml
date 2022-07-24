@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.chenzhuo</groupId>
+        <artifactId>chenzhuo-modules</artifactId>
+        <version>3.5.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+	
+    <artifactId>chenzhuo-system</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        chenzhuo-system系统模块
+    </description>
+    <modules>
+        <module>chenzhuo-system-common</module>
+        <module>chenzhuo-system-remote</module>
+        <module>chenzhuo-system-server</module>
+    </modules>
+
+
+</project>

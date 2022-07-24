@@ -1,0 +1,5 @@
+com/chenzhuo/auth/form/RegisterBody.class
+com/chenzhuo/auth/form/LoginBody.class
+com/chenzhuo/auth/service/SysLoginService.class
+com/chenzhuo/auth/controller/TokenController.class
+com/chenzhuo/auth/ChenZhuoAuthApplication.class

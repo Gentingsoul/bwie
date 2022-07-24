@@ -1,0 +1,3 @@
+com/chenzhuo/common/redis/configure/RedisConfig.class
+com/chenzhuo/common/redis/service/RedisService.class
+com/chenzhuo/common/redis/configure/FastJson2JsonRedisSerializer.class

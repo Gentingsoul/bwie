@@ -1,0 +1,8 @@
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-file/chenzhuo-file-server/src/main/java/com/chenzhuo/file/ChenZhuoFileApplication.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-file/chenzhuo-file-server/src/main/java/com/chenzhuo/file/service/FastDfsSysFileServiceImpl.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-file/chenzhuo-file-server/src/main/java/com/chenzhuo/file/service/MinioSysFileServiceImpl.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-file/chenzhuo-file-server/src/main/java/com/chenzhuo/file/controller/SysFileController.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-file/chenzhuo-file-server/src/main/java/com/chenzhuo/file/service/LocalSysFileServiceImpl.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-file/chenzhuo-file-server/src/main/java/com/chenzhuo/file/service/ISysFileService.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-file/chenzhuo-file-server/src/main/java/com/chenzhuo/file/config/MinioConfig.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-file/chenzhuo-file-server/src/main/java/com/chenzhuo/file/config/ResourcesConfig.java

@@ -1,0 +1,6 @@
+com/chenzhuo/system/remote/factory/RemoteUserFallbackFactory$1.class
+com/chenzhuo/system/remote/factory/RemoteLogFallbackFactory$1.class
+com/chenzhuo/system/remote/RemoteLogService.class
+com/chenzhuo/system/remote/factory/RemoteUserFallbackFactory.class
+com/chenzhuo/system/remote/RemoteUserService.class
+com/chenzhuo/system/remote/factory/RemoteLogFallbackFactory.class

@@ -1,0 +1,14 @@
+com/chenzhuo/gen/ChenZhuoGenApplication.class
+com/chenzhuo/gen/service/IGenTableColumnService.class
+com/chenzhuo/gen/domain/GenTable.class
+com/chenzhuo/gen/service/IGenTableService.class
+com/chenzhuo/gen/domain/GenTableColumn.class
+com/chenzhuo/gen/controller/GenController.class
+com/chenzhuo/gen/config/GenConfig.class
+com/chenzhuo/gen/service/GenTableServiceImpl.class
+com/chenzhuo/gen/service/GenTableColumnServiceImpl.class
+com/chenzhuo/gen/mapper/GenTableMapper.class
+com/chenzhuo/gen/util/GenUtils.class
+com/chenzhuo/gen/mapper/GenTableColumnMapper.class
+com/chenzhuo/gen/util/VelocityInitializer.class
+com/chenzhuo/gen/util/VelocityUtils.class

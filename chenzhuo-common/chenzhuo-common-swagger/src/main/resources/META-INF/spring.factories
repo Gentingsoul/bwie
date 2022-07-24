@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.chenzhuo.common.swagger.config.SwaggerAutoConfiguration,\
+  com.chenzhuo.common.swagger.config.SwaggerWebConfiguration,\
+  com.chenzhuo.common.swagger.config.SwaggerBeanPostProcessor

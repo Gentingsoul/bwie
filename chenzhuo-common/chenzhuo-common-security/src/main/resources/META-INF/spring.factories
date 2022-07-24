@@ -1,0 +1,6 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.chenzhuo.common.security.config.WebMvcConfig,\
+  com.chenzhuo.common.security.service.TokenService,\
+  com.chenzhuo.common.security.aspect.PreAuthorizeAspect,\
+  com.chenzhuo.common.security.aspect.InnerAuthAspect,\
+  com.chenzhuo.common.security.handler.GlobalExceptionHandler

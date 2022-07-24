@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ruoyi</groupId>
-    <artifactId>ruoyi</artifactId>
+    <groupId>com.chenzhuo</groupId>
+    <artifactId>chenzhuo</artifactId>
     <version>3.5.0</version>
 
-    <name>ruoyi</name>
-    <url>http://www.ruoyi.vip</url>
+    <name>chenzhuo</name>
+    <url>http://www.chenzhuo.vip</url>
     <description>若依微服务系统</description>
 
     <properties>
-        <ruoyi.version>3.5.0</ruoyi.version>
+        <chenzhuo.version>3.5.0</chenzhuo.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
@@ -185,70 +185,89 @@
 
             <!-- 核心模块 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-core</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.chenzhuo</groupId>
+                <artifactId>chenzhuo-common-core</artifactId>
+                <version>${chenzhuo.version}</version>
             </dependency>
 
             <!-- 接口模块 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-swagger</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.chenzhuo</groupId>
+                <artifactId>chenzhuo-common-swagger</artifactId>
+                <version>${chenzhuo.version}</version>
             </dependency>
 
             <!-- 安全模块 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-security</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.chenzhuo</groupId>
+                <artifactId>chenzhuo-common-security</artifactId>
+                <version>${chenzhuo.version}</version>
             </dependency>
 
             <!-- 权限范围 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-datascope</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.chenzhuo</groupId>
+                <artifactId>chenzhuo-common-datascope</artifactId>
+                <version>${chenzhuo.version}</version>
             </dependency>
 
             <!-- 多数据源 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-datasource</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.chenzhuo</groupId>
+                <artifactId>chenzhuo-common-datasource</artifactId>
+                <version>${chenzhuo.version}</version>
             </dependency>
 
             <!-- 日志记录 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-log</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.chenzhuo</groupId>
+                <artifactId>chenzhuo-common-log</artifactId>
+                <version>${chenzhuo.version}</version>
             </dependency>
 
             <!-- 缓存服务 -->
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-common-redis</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.chenzhuo</groupId>
+                <artifactId>chenzhuo-common-redis</artifactId>
+                <version>${chenzhuo.version}</version>
             </dependency>
 
-            <!-- 系统接口 -->
+
+
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>ruoyi-api-system</artifactId>
-                <version>${ruoyi.version}</version>
+                <groupId>com.chenzhuo</groupId>
+                <artifactId>chenzhuo-file-common</artifactId>
+                <version>${chenzhuo.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.chenzhuo</groupId>
+                <artifactId>chenzhuo-file-remote</artifactId>
+                <version>${chenzhuo.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.chenzhuo</groupId>
+                <artifactId>chenzhuo-system-remote</artifactId>
+                <version>${chenzhuo.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.chenzhuo</groupId>
+                <artifactId>chenzhuo-file-common</artifactId>
+                <version>${chenzhuo.version}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
 
     <modules>
-        <module>ruoyi-auth</module>
-        <module>ruoyi-gateway</module>
-        <module>ruoyi-visual</module>
-        <module>ruoyi-modules</module>
-        <module>ruoyi-api</module>
-        <module>ruoyi-common</module>
+        <module>chenzhuo-auth</module>
+        <module>chenzhuo-gateway</module>
+        <module>chenzhuo-visual</module>
+        <module>chenzhuo-modules</module>
+        <module>chenzhuo-common</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -260,18 +279,6 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                    <encoding>${project.build.sourceEncoding}</encoding>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
 
 </project>

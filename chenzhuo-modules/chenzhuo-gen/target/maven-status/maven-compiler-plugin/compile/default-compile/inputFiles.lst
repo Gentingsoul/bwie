@@ -1,0 +1,14 @@
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/ChenZhuoGenApplication.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/controller/GenController.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/service/GenTableColumnServiceImpl.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/mapper/GenTableMapper.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/domain/GenTable.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/config/GenConfig.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/mapper/GenTableColumnMapper.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/service/IGenTableService.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/util/VelocityUtils.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/service/IGenTableColumnService.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/util/GenUtils.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/util/VelocityInitializer.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/service/GenTableServiceImpl.java
+/Users/apple/Desktop/chenzhuo-cloud/chenzhuo-modules/chenzhuo-gen/src/main/java/com/chenzhuo/gen/domain/GenTableColumn.java

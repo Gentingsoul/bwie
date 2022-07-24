@@ -1,0 +1,8 @@
+com/chenzhuo/common/swagger/config/SwaggerProperties.class
+com/chenzhuo/common/swagger/config/SwaggerBeanPostProcessor.class
+com/chenzhuo/common/swagger/config/SwaggerWebConfiguration.class
+com/chenzhuo/common/swagger/config/SwaggerProperties$Contact.class
+com/chenzhuo/common/swagger/config/SwaggerProperties$Authorization.class
+com/chenzhuo/common/swagger/config/SwaggerProperties$AuthorizationScope.class
+com/chenzhuo/common/swagger/annotation/EnableCustomSwagger2.class
+com/chenzhuo/common/swagger/config/SwaggerAutoConfiguration.class

@@ -6,44 +6,51 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ruoyi-visual-monitor" />
-        <module name="ruoyi-modules-gen" />
-        <module name="ruoyi-modules-job" />
-        <module name="ruoyi-common-swagger" />
-        <module name="ruoyi-api-system" />
-        <module name="ruoyi-modules-system" />
-        <module name="ruoyi-common-log" />
-        <module name="ruoyi-gateway" />
-        <module name="ruoyi-common-datasource" />
-        <module name="ruoyi-modules-file" />
-        <module name="ruoyi-common-core" />
-        <module name="ruoyi-common-datascope" />
-        <module name="ruoyi-common-security" />
-        <module name="ruoyi-auth" />
-        <module name="ruoyi-common-redis" />
+        <module name="chenzhuo-common-redis" />
+        <module name="chenzhuo-common-security" />
+        <module name="chenzhuo-common-datascope" />
+        <module name="chenzhuo-system-server" />
+        <module name="chenzhuo-file-server" />
+        <module name="chenzhuo-job" />
+        <module name="chenzhuo-common-core" />
+        <module name="chenzhuo-common-log" />
+        <module name="chenzhuo-gen" />
+        <module name="chenzhuo-visual-monitor" />
+        <module name="chenzhuo-file-common" />
+        <module name="chenzhuo-system-common" />
+        <module name="chenzhuo-common-datasource" />
+        <module name="chenzhuo-gateway" />
+        <module name="chenzhuo-system-remote" />
+        <module name="chenzhuo-auth" />
+        <module name="chenzhuo-file-remote" />
+        <module name="chenzhuo-common-swagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ruoyi-api" target="1.8" />
-      <module name="ruoyi-api-system" target="1.8" />
-      <module name="ruoyi-auth" target="1.8" />
-      <module name="ruoyi-cloud" target="1.8" />
-      <module name="ruoyi-common" target="1.8" />
-      <module name="ruoyi-common-core" target="1.8" />
-      <module name="ruoyi-common-datascope" target="1.8" />
-      <module name="ruoyi-common-datasource" target="1.8" />
-      <module name="ruoyi-common-log" target="1.8" />
-      <module name="ruoyi-common-redis" target="1.8" />
-      <module name="ruoyi-common-security" target="1.8" />
-      <module name="ruoyi-common-swagger" target="1.8" />
-      <module name="ruoyi-gateway" target="1.8" />
-      <module name="ruoyi-modules" target="1.8" />
-      <module name="ruoyi-modules-file" target="1.8" />
-      <module name="ruoyi-modules-gen" target="1.8" />
-      <module name="ruoyi-modules-job" target="1.8" />
-      <module name="ruoyi-modules-system" target="1.8" />
-      <module name="ruoyi-visual" target="1.8" />
-      <module name="ruoyi-visual-monitor" target="1.8" />
+      <module name="chenzhuo" target="1.5" />
+      <module name="chenzhuo-auth" target="1.5" />
+      <module name="chenzhuo-common" target="1.8" />
+      <module name="chenzhuo-common-core" target="1.8" />
+      <module name="chenzhuo-common-datascope" target="1.8" />
+      <module name="chenzhuo-common-datasource" target="1.8" />
+      <module name="chenzhuo-common-log" target="1.8" />
+      <module name="chenzhuo-common-redis" target="1.8" />
+      <module name="chenzhuo-common-security" target="1.8" />
+      <module name="chenzhuo-common-swagger" target="1.8" />
+      <module name="chenzhuo-file" target="1.8" />
+      <module name="chenzhuo-file-common" target="1.8" />
+      <module name="chenzhuo-file-remote" target="1.8" />
+      <module name="chenzhuo-file-server" target="1.8" />
+      <module name="chenzhuo-gateway" target="1.8" />
+      <module name="chenzhuo-gen" target="1.8" />
+      <module name="chenzhuo-job" target="1.8" />
+      <module name="chenzhuo-modules" target="1.8" />
+      <module name="chenzhuo-system" target="1.8" />
+      <module name="chenzhuo-system-common" target="1.8" />
+      <module name="chenzhuo-system-remote" target="1.8" />
+      <module name="chenzhuo-system-server" target="1.8" />
+      <module name="chenzhuo-visual" target="1.5" />
+      <module name="chenzhuo-visual-monitor" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
